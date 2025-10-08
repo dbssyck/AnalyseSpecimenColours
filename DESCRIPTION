@@ -1,0 +1,20 @@
+Package: AnalyseSpecimenColours
+Title: Conduct taxonomic assessments from RGB measurements of specimen photos
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Y.C.K.",
+           family = "Sin",
+           role = c("aut", "cre"),
+           email = "keitasin@u.nus.sg",
+           comment = c(ORCID = "0009-0000-2563-3347"))
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+	colorscience,
+	MASS,
+	ape,
+	ggplot2,
+	openxlsx
