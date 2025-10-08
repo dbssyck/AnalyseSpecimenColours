@@ -1,4 +1,4 @@
-# AnalyseSpecimenColour
+# AnalyseSpecimenColours
 # This repository contains:
 
 ## (1) R Package to execute colourimetric analyses as described in Teo et al. (2025)
