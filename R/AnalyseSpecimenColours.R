@@ -1,4 +1,9 @@
-
+#' @import colorscience
+#' @import MASS
+#' @import ape
+#' @import ggplot2
+#' @import openxlsx
+NULL
 
 #' Calculates the CIEDE2000 values between every pair of samples in the dataset.
 #'
@@ -458,7 +463,7 @@ flatten.list <- function(list.to.flatten, parent.name = "") {
 
     item <- list.to.flatten[[i]]
 
-    if (is.df(item)) { flat.list[[new.name]] <- item # Store dataframe with unique name
+    if (is.data.frame(item)) { flat.list[[new.name]] <- item # Store dataframe with unique name
     } else if (is.list(item)) {
       flat.list <- c(flat.list, flatten.list(item, new.name)) # Continue working into sublists
     }
